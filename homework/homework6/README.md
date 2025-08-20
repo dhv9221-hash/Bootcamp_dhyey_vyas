@@ -18,3 +18,5 @@ Once done I called missing median function after importing cleaning .py in order
 After this I called the normalize function which used min max scaling in ordr to scaled the data in the range of 0-1 and i put that in a new column in the same dataset called normalized price
 
 Once this was done I called the drop missing function which dropped all the rows woth null vlaues as a result of this the dataset was left with 1 row which was the final processed dataset which I save in data/processed as processed.csv
+
+THe cleaning.py is a resuable file but I assumed that its scope is valid till this task itself hence I have catered it specifically for the dataset I used here
